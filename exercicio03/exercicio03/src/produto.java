@@ -1,7 +1,6 @@
-import java.util.Scanner;
 
-abstract class produto{
-    String nome; 
+abstract class produto {
+    String nome;
     double preco;
 
     public void setNome(String nome) {

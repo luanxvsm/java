@@ -1,9 +1,8 @@
 public class principal {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        
-        produto myProduto = new produto();
-        myProduto.ExibirNome();
-        myProduto.ExibirPreco();
+        cd sant = new cd();
+        sant.getInfo();
+        sant.exibeInformacoes();
     }
 }

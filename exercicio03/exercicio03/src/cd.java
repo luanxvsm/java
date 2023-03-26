@@ -1,20 +1,29 @@
 import java.util.Scanner;
 
-public class cd extends produto{
+public class cd extends produto {
     int numFaixas;
-    public void exibeInformacoes(){
-        setNome(nome);
-        setPreco(preco);
+    final Scanner entrada = new Scanner(System.in);
+
+    public void exibeInformacoes() {
+        System.out.println(nome);
+        System.out.println(preco);
+        System.out.println(numFaixas);
     }
 
-    public void getInformacoes(){
-        
-    }
+    public void getInfo() {
+        System.out.print("Qual nome do album? ");
+        String nome1 = entrada.nextLine();
+        setNome(nome1);
 
-    public void ExibirFaixas(){
         System.out.println("Quantas faixas tem o CD? ");
-        Scanner entrada = new Scanner(System.in);
-        numFaixas = entrada.nextInt();
-        System.out.print(numFaixas);
+        this.numFaixas = entrada.nextInt();
+
+        System.out.println("Qual é o preço? ");
+        double valor = entrada.nextDouble();
+        setPreco(valor);
+
+        entrada.close();
+
     }
 }
+
