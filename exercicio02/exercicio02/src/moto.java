@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class moto extends principal{
+public class moto extends categoria{
     public void ExibirNome(){
         System.out.print("\nQual o nome da moto? ");
         Scanner entrada = new Scanner(System.in);
