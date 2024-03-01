@@ -1,4 +1,4 @@
-import java.util.Arrays;
+/*import java.util.Arrays;
 
 public class MergeArrays {
     public static void main(String[] args) {
@@ -39,4 +39,4 @@ public class MergeArrays {
         System.out.println("Vetor A3 ordenado: " + Arrays.toString(A3));
     }
 }
-
+*/

@@ -1,7 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "Teoria dos Grafos/ex04/src",
+        "Teoria dos Grafos/ex03/src",
         "Teoria dos Grafos/ex01/src",
-        "Teoria dos Grafos/ex03/src"
+        "Teoria dos Grafos/ex05/src"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
